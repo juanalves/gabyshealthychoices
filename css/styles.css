@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.jumbotron-fluid {
+  margin: 0;
+  padding: 0;
+  background: url('https://cdn.pixabay.com/photo/2017/05/02/18/20/blueberries-2278921_960_720.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+}
+/* Style the navbar */
+#navbar {
+  margin:0;
+  padding: 0; 
+  overflow: hidden;
+  background-color: white;
+}
+  /* Navbar links */
+  #navbar a {
+    font-weight: bolder;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  #navbar a:hover {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    background: lightpink;
+  }
+
+input {
+    margin: 10px;
+    border-radius: 5px
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.sticky + .content {
+    padding-top: 60px;
+  }
+  /* Page content */
+.content {
+  padding: 16px;
+}
